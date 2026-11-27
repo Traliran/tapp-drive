@@ -2,6 +2,8 @@
 
 A minimal local file browser for a server folder. No database, no accounts, no external runtime dependencies. The frontend is embedded into a single static Go binary.
 
+> Projects with "Tapp" in their name are ones I’ve developed for my own homelab. They were not created for general public use—they were built solely for my own purposes—but I’ve decided to share their source code.
+
 ## Features
 
 - Browse, search, sort, upload, download, preview, edit, copy, move, and delete files.
@@ -10,6 +12,32 @@ A minimal local file browser for a server folder. No database, no accounts, no e
 - Any number of password-protected folders, configured in JSON.
 - OLED-black Material You interface with inline SVG icons.
 - Passwords stay in memory only and are never written to browser storage.
+
+---
+
+## Contribution Guidelines:
+
+This project is not intended for external contributions, as it is a "Tapp."
+
+If you wish to contribute, please simply open an issue.
+
+If you would like to submit a pull request (PR), it must adhere to the same contribution guidelines as my other projects:
+
+> ## Contributing
+>
+> Contributions are welcome. This repository does not include harness-specific folders.
+>
+> ### AI-Assisted Contributions
+>
+> AI assistance is accepted only when you use the `TSkRun` skill from [https://github.com/Traliran/tskrun](https://github.com/Traliran/tskrun). Changes made with AI without using `TSkRun` will not be accepted.
+>
+> In the pull request description, the **very first line** (immediately following the title/heading) must state that the patch was created using AI, followed by the `TSkRun` task report(s) (each strictly under 1,000 tokens). If multiple AI tasks or runs were involved, please include **all** of them.
+>
+> ### Human Contributions
+>
+> If the patch was written by a human, please state this on the **first line after the heading** in the pull request description, followed by a description provided by the human author. There are no strict formatting requirements for human-authored descriptions beyond that initial line.
+
+---
 
 ## Build
 
