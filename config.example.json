@@ -1,0 +1,14 @@
+{
+  "storage_dir": "/srv/drive",
+  "listen": "127.0.0.1:8080",
+  "protected_folders": [
+    {
+      "path": "admin",
+      "password": "change-me"
+    },
+    {
+      "path": "private/docs",
+      "password": "change-me-too"
+    }
+  ]
+}
